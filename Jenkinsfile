@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         // Define the base URL for Jenkins
-        JENKINS_URL = 'http://localhost:8080'
+        JENKINS_URL = 'http://192.168.37.128:8080'
     }
 
     stages {
